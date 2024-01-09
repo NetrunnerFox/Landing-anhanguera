@@ -13,7 +13,7 @@ Swiper JS
 ## Veja o projeto:
 Você pode visualizar o projeto no seguinte link: [Visualizar projeto](https://netrunnerfox.github.io/Landing-anhanguera/)
 
-##Contato
+## Contato
 Você pode me encontrar no linkedin pelo link Gabriel Queiroz.
 
 Sinta-se a vontade para mandar uma mensagem.
