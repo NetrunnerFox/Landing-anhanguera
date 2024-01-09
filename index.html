@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Anhanguera</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <img src="./imgs/Anhanguera_Positivo_2.png" class="cabeçalho__logo">
+    </header>
+
+    <section class="banner__mobile">
+        <img src="./imgs/Oferta Padrão 1080x1080.png" class="banner__img">
+    </section>
+
+    <section class="banner__desktop">
+        <img src="./imgs/KV59_PRESENCIAL.png" class="banner__img">
+    </section>
+
+    <form class="curso">
+        <h2 class="curso__titulo"> Encontre seu curso:</h2>
+        <div class="curso__parent">
+            <div class="curso__child">
+                <label for="city__finder" class="finder__titulo">Escolha a cidade:</label>
+                <input type="search" id="city__finder" name="city__finder" placeholder="Rio de Janeiro - RJ" class="curso__child__input">
+            </div>
+
+            <div class="curso__child">
+                <label for="course__finder" class="finder__titulo">Escolha o curso:</label>
+                <input type="search" id="course__finder" name="course__finder" placeholder="Digite o nome do curso" class="curso__child__input">
+            </div>
+        </div>
+
+        <input type="submit" value="Buscar curso" class="curso__botao">  
+    </form>
+    
+    <section class="modalidades">
+
+        <h3 class="modalidades__titulo">Modalidades de curso</h3>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./imgs/foto-presencial.jpg" class="card__image">
+                    <div class="card__conteudo">
+                        <h4 class="card__titulo">Presencial</h4>
+                        <p class="card__texto">Aulas presenciais de 4 a 5
+                            dias por semana com suporte dos professores</p>
+                        <button type="button" class="card__button"> Inscrever-se</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./imgs/foto-hibrido.jpg" class="card__image">
+                    <div class="card__conteudo">
+                        <h4 class="card__titulo">Híbrido/flex</h4>
+                        <p class="card__texto">A liberdade de estudar a distancia com um 
+                            pouco da experiência presencial</p>
+                        <button type="button" class="card__button"> Inscrever-se</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./imgs/foto-ead.jpg" class="card__image">
+                    <div class="card__conteudo">
+                        <h4 class="card__titulo">Online/EAD</h4>
+                        <p class="card__texto">A experiência de estudar com a liberdade de escolher 
+                            onde e quando você quiser</p>
+                        <button type="button" class="card__button"> Inscrever-se</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <section class="modalidades__desktop">
+
+        <h3 class="modalidades__titulo">Modalidades de curso</h3>
+
+        <div class="swiper mySwiper-desk">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./imgs/foto-presencial.jpg" class="card__image">
+                    <div class="card__conteudo">
+                        <h4 class="card__titulo">Presencial</h4>
+                        <p class="card__texto">Aulas presenciais de 4 a 5
+                            dias por semana com suporte dos professores</p>
+                        <button type="button" class="card__button"> Inscrever-se</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./imgs/foto-hibrido.jpg" class="card__image">
+                    <div class="card__conteudo">
+                        <h4 class="card__titulo">Híbrido/flex</h4>
+                        <p class="card__texto">A liberdade de estudar a distancia com um 
+                            pouco da experiência presencial</p>
+                        <button type="button" class="card__button"> Inscrever-se</button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./imgs/foto-ead.jpg" class="card__image">
+                    <div class="card__conteudo">
+                        <h4 class="card__titulo">Online/EAD</h4>
+                        <p class="card__texto">A experiência de estudar com a liberdade de escolher 
+                            onde e quando você quiser</p>
+                        <button type="button" class="card__button"> Inscrever-se</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <section class="porque">
+        <h3 class="porque__titulo"> Por que estudar na Anhanguera?</h3>
+
+            <div class="porque__container">
+
+                <div class="porque__child">
+                    <img src="./imgs/self-development purple.png" class="porque__child__img">
+                    <h4 class="porque__child__titulo"> Habilidades Digitais </h4>
+                    <p class="porque__child__texto"> Atividades complementares em diversas áreas de atuação que ajudam o 
+                        aluno a desenvolver as competências do futuro e ter mais oportunidades no mercado de trabalho.
+                    </p>
+                </div>
+
+                <div class="porque__child">
+                    <img src="./imgs/search (2) purple.png" class="porque__child__img">
+                    <h4 class="porque__child__titulo"> Avaliação Continuada</h4>
+                    <p class="porque__child__texto"> Avaliação de forma contínua para 
+                        valorizar, acompanhar e ajudar a melhorar seu desempenho ao longo do semestre.
+                    </p>
+                </div>
+
+                <div class="porque__child">
+                    <img src="./imgs/route purple.png" class="porque__child__img">
+                    <h4 class="porque__child__titulo"> Trilhas de Carreira </h4>
+                    <p class="porque__child__texto">Atividades extracurriculares gratuitas e 100% online que preparam o 
+                        aluno para se tornar o profissional que o mercado procura, turbinando seu currículo com certificados digitais.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section class="numeros">
+        <h3 class="numeros__header"> Nossos números</h3>
+
+        <div class="numeros__parent">
+            <div class="numeros__child">
+                <h4 class="numeros__child__titulo">+25 anos</h4>
+                <p class="numeros__child__texto"> de tradição e 
+                    ensino de qualidade
+                </p>
+            </div>
+
+            <div class="numeros__child">
+                <h4 class="numeros__child__titulo">+22 estados</h4>
+                <p class="numeros__child__texto"> e mais de 370 unidades</p>
+            </div>
+
+            <div class="numeros__child">
+                <h4 class="numeros__child__titulo"> +360 cursos</h4>
+                <p class="numeros__child__texto"> com conceito positivo no MEC
+                </p>
+            </div>
+
+            <div class="numeros__child">
+                <h4 class="numeros__child__titulo"> +150 cursos</h4>
+                <p class="numeros__child__texto"> estrelados no Guia do Estudante</p>
+            </div>
+
+            <div class="numeros__child">
+                <h4 class="numeros__child__titulo"> +80 cursos</h4>
+                <p class="numeros__child__texto"> para você escolher
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="formas">
+        <h3 class="formas__titulo"> Formas de ingressar na Anhanguera </h3>
+
+        <div class="formas__container">
+
+            <div class="formas__par">
+                <p class="formas__par__titulo">Enem</p>
+                <p class="formas__par__texto"> Com a gente o seu desempenho é a sua porta de entrada para a gradução.</p>
+            </div>
+
+            <div class="formas__par">
+                <p class="formas__par__titulo">Vestibular online</p>
+                <p class="formas__par__texto">A redação é feita pela internet e você escolhe a hora e o local que preferir</p>
+            </div>
+
+            <div class="formas__par">
+                <p class="formas__par__titulo"> Transferência</p>
+                <p class="formas__par__texto"> Conclua a sua graduação com as melhores condições de pagamento.</p>
+            </div>
+
+            <div class="formas__par">
+                <p class="formas__par__titulo">2ª graduação</p>
+                <p class="formas__par__texto">Aprimore seus conhecimentos ou mude de carreira com condições facilitadas</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p class="rodape__texto">©2023. Todos os direitos reservados</p>
+    </footer>
+</body>
+
+<script src="swiper.js"></script>
+<script src="core.js"></script>
+</html>
